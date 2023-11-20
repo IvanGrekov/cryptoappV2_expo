@@ -1,4 +1,4 @@
-# Expo app to have web preview for [cryptoappV2](https://reactnative.dev/docs/environment-setup)
+# Expo app to have web preview for [cryptoappV2](https://github.com/IvanGrekov/cryptoappV2)
 
 ### Coin List Screen
 <img width="378" alt="Coin List" src="https://github.com/IvanGrekov/cryptoappV2/assets/77124061/2f68cb50-cdc4-4af5-805e-56f15cdb5263">
