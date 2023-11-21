@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { NativeBaseProvider, Box } from 'native-base';
 
 import { THEME, STYLE_VARIABLES } from './src/constants/style';
+import Header from './src/components/header/Header';
+import Routes from './src/routes';
 
 export default function App() {
     return (
@@ -13,8 +15,7 @@ export default function App() {
                     <StatusBar style="auto" backgroundColor={STYLE_VARIABLES.bgColor} />
 
                     <Box style={styles.appWrapper}>
-                        <Text>Hello</Text>
-                        {/* <Routes homeScreenChildren={<Header />} /> */}
+                        <Routes homeScreenChildren={<Header />} />
                     </Box>
                 </View>
             </NativeBaseProvider>
