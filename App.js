@@ -32,7 +32,11 @@ const styles = StyleSheet.create({
     },
     appWrapper: {
         width: 400,
-        height: 700,
+        height: 750,
         backgroundColor: STYLE_VARIABLES.bgColor,
+        borderRadius: 25,
+        borderWidth: 7,
+        borderColor: STYLE_VARIABLES.black,
+        overflow: 'hidden',
     },
 });
