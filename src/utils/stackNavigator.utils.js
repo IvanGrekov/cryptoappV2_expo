@@ -7,6 +7,7 @@ export const getStackNavigationOptions = () => {
         headerStyle: {
             backgroundColor: STYLE_VARIABLES.bgColor,
         },
+        headerShadowVisible: false,
     };
 };
 
